@@ -1,0 +1,40 @@
+body{
+    background-image: url("../Components/Imagenes/background.png")
+}
+
+.container{
+    width: 40%;
+    margin: 5%;
+    border: 2px solid #090088;
+    border-radius: 1%;
+    position:absolute;
+    left:25%;
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    background: #930077;
+    margin: 0%;
+    color: #ffbd39;
+}
+.containerInput{
+    text-align: center;
+    margin: 10%;
+}
+.submit{
+    margin-left: 2%;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    background: #930077;
+    color: #ffbd39;
+    font-size: 16px;
+}
+.numberInput{
+    border: 2px solid #090088;
+    font-size: 14px;
+}
+.result{
+  text-align: center
+}
+
