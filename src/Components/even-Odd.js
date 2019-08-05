@@ -41,6 +41,7 @@ class EvenOdd extends Component{
             }
            
         }
+//Funcion que renderiza
 
     render(){
         return(
