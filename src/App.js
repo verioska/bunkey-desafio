@@ -1,11 +1,16 @@
 import React from 'react';
 import EvenOdd from './Components/even-Odd';
+// import { Provider } from 'react-redux'
+// import store from './Store'
 
 function App() {
   return (
-    <div className="App">
-        <EvenOdd />
-    </div>
+   
+    // <Provider store={store}>
+     <div>
+       <EvenOdd />
+    </div>  
+      // </Provider>
   );
 }
 
