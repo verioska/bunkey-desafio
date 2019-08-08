@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-// import { connect } from 'react-redux';
-// import {  saveResult  } from '../Action/actionPrincipal';
+import { connect } from 'react-redux';
+import {  saveResult  } from '../Action/actionPrincipal';
 import './evenOdd.css'
 
 
