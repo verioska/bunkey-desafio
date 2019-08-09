@@ -34,14 +34,14 @@ class EvenOdd extends Component{
              
                 }),()=>{
                     this.props.saveResult(this.state)
-                })
+                }
             }else{
                 this.setState({ 
                     ...this.state,
                     result:'impar'
                 }),()=>{
                     this.props.saveResult(this.state)
-                })
+                }
             }
            
         }
@@ -64,13 +64,7 @@ class EvenOdd extends Component{
     }
  
 
-
-
-  const mapDispatchToProps = dispatch => ({     
-    diplayResultAction: saveResult(dispatch)   
-
- });export default
-    connect(
-        
-        mapDispatchToProps
-    )(EvenOdd)
+const mapDispatchToProps => ({     
+    saveResult(dispatch)  
+ });
+ export default (connect(mapDispatchToProps)(EvenOdd))
